@@ -24,7 +24,7 @@ This is a command-line program written in Rust that allows you to manage IP info
    cargo run
    ```
 
-   #Usage
+#Usage
 Display IP Information: Choose option 1 from the menu to display the IP information stored in the database. The program will output a table showing the IP addresses, subnet masks, gateways, and descriptions.
 
 Add IP Information: Choose option 2 from the menu to add new IP information. Enter the IP address, subnet mask, gateway, and description when prompted. The program will validate the inputs and store the information in the database.
