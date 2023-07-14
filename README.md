@@ -1,5 +1,7 @@
 # IP Management
 
+![image](image.png)
+
 This is a command-line program written in Rust that allows you to manage IP information including IP addresses, subnet masks, gateways, and descriptions. The program stores the IP information in a JSON database file.
 
 ## Features
