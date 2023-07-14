@@ -1,7 +1,7 @@
 use ipnetwork::IpNetwork;
 use prettytable::{Cell, Row, Table};
 use serde::{Deserialize, Serialize};
-use serde_json::{json, Value};
+use serde_json::{json};
 use std::fs::File;
 use std::io::prelude::*;
 use std::io::{self, BufRead};
