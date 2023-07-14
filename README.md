@@ -24,6 +24,27 @@ This is a command-line program written in Rust that allows you to manage IP info
    cargo run
    ```
 
+   
+## Installation
+
+1. Clone the repository:
+
+```shell
+git clone https://github.com/your-username/ip-management.git
+```
+2. Navigate to the project directory:
+```shell
+cd ip-management
+```
+3. Build the project:
+```shell
+cargo build --release
+```
+4. Run the application:
+```shell
+cargo run --release
+```
+
 ## Usage
 Display IP Information: Choose option 1 from the menu to display the IP information stored in the database. The program will output a table showing the IP addresses, subnet masks, gateways, and descriptions.
 
@@ -43,6 +64,15 @@ subnet: The subnet mask.
 gateway: The gateway.
 description: A description for the IP address.
 port: port number to verify online or offline
+
+## Data Persistence
+IP information is stored in a JSON file named ip_database.json. The data is loaded from this file when the program starts and saved to the file before exiting.
+
+
+
+## Notes
+IP addresses, subnet masks, and gateways are validated to ensure they are in the correct format.
+Ports are validated to ensure they are valid port numbers.
 
 
 ## #License
